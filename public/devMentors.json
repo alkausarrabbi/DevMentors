@@ -1,0 +1,102 @@
+[
+    {
+      "id": "615a0077b8f18288b0afa866",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/react.png?raw=true",
+      "title": "React JS",
+      "fees": 118,
+      "seats":120,
+      "rating":4.5,
+      "remaining":55,
+      "description": "Our React Js Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a0077f741807c11b51484",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/node.png?raw=true",
+      "title": "Node Js",
+      "fees": 84,
+      "seats":120,
+      "rating":4.7,
+      "remaining":60,
+      "description": "Our Node Js Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a00772af243f1bca027f4",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/database.png?raw=true",
+      "title": "Database",
+      "fees": 203,
+      "seats":120,
+      "rating":4.8,
+      "remaining":17,
+      "description": "Our Database Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a007714e7f272502130d9",
+      "img": "https://raw.githubusercontent.com/AuthoredByTonmoy/DevMentors/main/BootstrapTailwind.png",
+      "title": "Bootstrap & Tailwind",
+      "fees": 96,
+      "seats":120,
+      "rating":4.0,
+      "remaining":33,
+      "description": "Our Bootstrap & Tailwind Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a0077971b9dfa32a049d0",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/javascript.jpg?raw=true",
+      "title": "Javascript",
+      "fees": 117,
+      "seats":120,
+      "rating":4.2,
+      "remaining":51,
+      "description": "Our Javascript Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a007715168394ad93a1e8",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/ReactNative.png?raw=true",
+      "title": "React Native",
+      "fees": 233,
+      "seats":120,
+      "rating":4.56,
+      "remaining":12,
+      "description": "Our React Native Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a0077f53195a2af4a863a",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/Redux.png?raw=true",
+      "title": "Redux",
+      "fees": 226,
+      "seats":120,
+      "rating":4.8,
+      "remaining":5,
+      "description": "Our Redux Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a00771599bfbd9dbe2969",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/ExpressJs.jpeg?raw=true",
+      "title": "Express Js",
+      "fees": 299,
+      "seats":120,
+      "rating":4.7,
+      "remaining":13,
+      "description": "Our Express Js Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a0077303ee334e50d6692",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/MaterialUI.png?raw=true",
+      "title": "Material UI",
+      "fees": 125,
+      "seats":120,
+      "rating":4.25,
+      "remaining":39,
+      "description": "Our Material UI Course is one of the best course. Instructed by internationa quality level teachers."
+    },
+    {
+      "id": "615a0077781a9c5bb31c111a",
+      "img": "https://github.com/AuthoredByTonmoy/DevMentors/blob/main/UI-UX.jpg?raw=true",
+      "title": "UI & UX Design",
+      "fees": 74,
+      "seats":120,
+      "rating":4.17,
+      "remaining":3,
+      "description": "Our UI & UX Design Course is one of the best course. Instructed by internationa quality level teachers."
+    }
+  ]
