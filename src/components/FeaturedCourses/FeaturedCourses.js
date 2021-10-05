@@ -9,33 +9,21 @@ const Course = (props) => {
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
 
     return (
-        <div className="container-fluid" >
-            <div className="col-lg-6 course mx-auto p-3 mb-4 ">
-                <div className="card p-3 border bg-light">
-                    <div className="d-flex justify-content-center">
-                        <div className="container-fluid p-4 m-3 border border-3 border-secondary rounded bg-light">
-                            <div className="row gy-5 align-items-center">
-                                <div className="col p-0">
-                                    <div className="p-0">
-                                        <img className="image" src={img} alt="" />
-                                    </div>
-                                </div>
-                                <div className="col p-0">
-                                    <div className="p-3 text-start">
-                                        <h2>{title}</h2>
-                                        <h5 className="text-danger"><b>Fees: $ {fees}</b></h5>
-                                        <p> <b>Course Details</b>  : {description}</p>
-                                        <div>
-                                            {element} {element} {element} {element} {element2}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div className="col-lg-5 rounded course p-4 m-4">
+             <div class="card h-100">
+      <img src={img} class="card-img-top h-80" alt="..."/>
+      <div class="card-body">
+        <h3 class="card-title">{title}</h3>
+        <p class="card-text">{description}</p>
+        <p className="text-danger">Course Fee : $ {fees}</p>
+        <div>
+            {element}{element}{element}{element}{element2}
         </div>
+      </div>
+      </div>
+        </div>
+       
+       
     );
 };
 

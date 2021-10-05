@@ -20,17 +20,17 @@ const FindUs = () => {
                                                 <div class="col-12 align-self-center">
                                                     <h3>Dhanmandi</h3>
                                                     <p>Dhaka, Bangladesh</p>
-                                                    <p><i>Contact: +880 1880 788228</i></p>
+                                                    <p><i>Contact: +8801862555331</i></p>
                                                 </div>
                                                 <div class="col-12 align-self-center">
                                                     <h3>Basundhara</h3>
                                                     <p>Dhaka, Bangladesh</p>
-                                                    <p><i>Contact: +880 1880 788228</i></p>
+                                                    <p><i>Contact: +8801862555331</i></p>
                                                 </div>
                                                 <div class="col-12 align-self-center">
                                                     <h3>CU Campus</h3>
                                                     <p>Chittagong, Bangladesh</p>
-                                                    <p><i>Contact: +880 1880 788228</i></p>
+                                                    <p><i>Contact: +8801862555331</i></p>
                                                 </div>
                                             </div>
                                         </div>

@@ -9,43 +9,39 @@ const Review = () => {
     const element = <FontAwesomeIcon icon={faStar} />
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
     return (
-        <div className="mb-5 p-5">
-            <h2 className="m-5 p-3">Students Review</h2>
-           <div className="card-group">
-  <div className="card">
-    <img src={image1} className="card-img-top img-fluid " alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">
-          Sam Smith
-      </h5>
-      <p className="card-text">That's a really good & outstanding coaching Center. In this center,,many qualified & best teachers are teaching here.seluate u</p>
-    </div>
-    <div className="card-footer">
-    {element}{element}{element}{element}{element2}
-    </div>
-  </div>
-  <div className="card">
-    <img src={image2} className="card-img-top img-fluid" alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">Jayden Christiansen</h5>
-      <p className="card-text">Was a student of there, now being a teacher feels kinda nostalgic.</p>
-    </div>
-    <div className="card-footer">
-    {element}{element}{element}{element}{element2}
-    </div>
-  </div>
-  <div className="card">
-    <img src={image3} className="card-img-top img-fluid" alt="..."/>
-    <div className="card-body">
-      <h5 className="card-title">Monique Witting</h5>
-      <p className="card-text">ne of the best couching center for science students who wants to learn computer programming , design e.tc</p>
-    </div>
-    <div className="card-footer">
-    {element}{element}{element}{element}{element2}
-    </div>
-  </div>
-</div>
+      <div className=" mx-auto mb-5 p-5">
+        <h2 className="m-5 p-1">Students Reviews</h2>
+        <div className="d-flex ">
+        <div class="col-lg-4">
+        <img src={image1}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
+        <br />
+        <h2>Sam Smith</h2>
+        <p>That's a really good & outstanding coaching Center. In this center,,many qualified & best teachers are teaching here.seluate u</p>
+        <br />
+        <p>Rated: {element}{element}{element}{element}{element2}</p>
+      </div>
+        <div class="col-lg-4">
+        <img src={image2}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
+        <br />
+        <h2>Jayden william</h2>
+        <p>I was a student of there, now being a teacher feels kinda nostalgic.</p>
+        <br />
+        <br />
+        <br />
+        <p>Rated: {element}{element}{element}{element}{element2}</p>
+      </div>
+        <div class="col-lg-4">
+        <img src={image3}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
+        <br />
+        <h2>Monique Witting</h2>
+        <p>One of the best couching center for science students who wants to learn computer programming , design e.tc</p>
+        <br />
+        <br />
+        <p>Rated: {element}{element}{element}{element}{element2}</p>
+      </div>
         </div>
+        
+      </div>
     );
 };
 
