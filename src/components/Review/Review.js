@@ -9,10 +9,11 @@ const Review = () => {
     const element = <FontAwesomeIcon icon={faStar} />
     const element2 = <FontAwesomeIcon icon={faStarHalfAlt} />
     return (
-      <div className=" mx-auto mb-5 p-5">
+      <div className="container-fluid">
+        <div className=" mx-auto mb-5">
         <h2 className="m-5 p-1">Students Reviews</h2>
-        <div className="d-flex ">
-        <div class="col-lg-4">
+        <div className="row ">
+        <div class="col-lg-4 col-12">
         <img src={image1}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
         <br />
         <h2>Sam Smith</h2>
@@ -20,7 +21,7 @@ const Review = () => {
         <br />
         <p>Rated: {element}{element}{element}{element}{element2}</p>
       </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-12">
         <img src={image2}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
         <br />
         <h2>Jayden william</h2>
@@ -30,7 +31,7 @@ const Review = () => {
         <br />
         <p>Rated: {element}{element}{element}{element}{element2}</p>
       </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-12">
         <img src={image3}  class="bd-placeholder-img rounded-circle" width="140" height="140" alt="" />
         <br />
         <h2>Monique Witting</h2>
@@ -39,6 +40,8 @@ const Review = () => {
         <br />
         <p>Rated: {element}{element}{element}{element}{element2}</p>
       </div>
+        </div>
+       
         </div>
         
       </div>
